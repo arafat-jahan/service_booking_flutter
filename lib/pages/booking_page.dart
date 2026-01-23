@@ -35,7 +35,7 @@ child: Column(
       ),
     ),
 
-    const SizedBox(height: 20,),
+    const SizedBox(height: 25,),
     SizedBox(width: double.infinity,
       height: 50,
       child: ElevatedButton(onPressed: (){
