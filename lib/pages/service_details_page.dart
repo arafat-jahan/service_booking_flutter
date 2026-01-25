@@ -35,7 +35,7 @@ class ServiceDetailsPage extends StatelessWidget {
             child: Row(
               children: [
                 Icon(service.icon,size:35),
-                const SizedBox(width: 12,),
+                const SizedBox(width: 20,),
                 Text(service.name, style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold),)
               ],
             ),
